@@ -7,7 +7,7 @@ import { faGithub, faLinkedin } from '@fortawesome/free-brands-svg-icons'
 
 function Intro() {
   return (
-    <section  id='hero' className='d-flex flex-column justify-content-center'>
+    <section id='hero' className ='d-flex flex-column justify-content-center' style={{border: '1px solid black'}}>
       <Container>
         <Row>
             <Col lg = {6} className='item-center'>
@@ -34,18 +34,18 @@ function Intro() {
               </p>
               <div className='social-links'>
                 <a href="https://www.linkedin.com/in/ashish-sangale/">
-                  <i className="bx bxl-github">
+                  <i>
                     <FontAwesomeIcon icon = {faLinkedin}/>
                   </i>
                 </a>
                 <a href="https://github.com/ashishsangale">
-                  <i className="bx bxl-github">
+                  <i>
                     <FontAwesomeIcon icon = {faGithub}/>
                   </i>
                 </a>
               {/* <FontAwesomeIcon icon= {faEnvelope} /> */}
               <a href="mailto:aashishsangale07@gmail.com">
-                <i className="bx bx-envelope"><FontAwesomeIcon icon= {faEnvelope} /></i>
+                <i><FontAwesomeIcon icon= {faEnvelope} /></i>
               </a>
               </div>
             </Col>
