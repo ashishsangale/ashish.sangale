@@ -31,7 +31,7 @@ function About() {
                       <ul>
                       <li>
                           <i><FontAwesomeIcon icon={faChevronRight}/></i> <strong>Phone:</strong>{" "}
-                        <span>+91 9766899662</span>
+                        <span>+1 (602)804-3547</span>
                         </li>
                         <li>
                           <i><FontAwesomeIcon icon={faChevronRight}/></i> <strong>City:</strong>{" "}

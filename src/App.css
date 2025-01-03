@@ -129,8 +129,13 @@ h6 {
 --------------------------------------------------------------*/
 body {
   font-family: "Open Sans", sans-serif;
-  background-color: rgba(46, 45, 43, 1);
+  background-color: rgb(0, 0, 0);
 }
+
+#root {
+  margin: 0 auto;
+  text-align: center;
+} 
 
 a {
   color: #0563bb;
@@ -394,8 +399,14 @@ h6 {
   height: 100vh;
   background-size: cover;
   position: relative;
-  background: rgba(46, 45, 43, 1);
-  /*background: url("../img/hero-bg.jpg") top right no-repeat;*/
+  background: rgb(0, 0, 0);
+  display: flex; /* Flexbox for alignment */
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
 }
 
 @media (min-width: 992px) {
